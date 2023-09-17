@@ -1,0 +1,59 @@
+body {
+  font-family: Gill Sans, sans-serif;
+  background-color: salmon;
+  text-align: center;
+  height:100vh;
+  background-image: linear-gradient(rgba(0,0,0,.6), rgba(0, 0, 0, .6)),
+  url("https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+  background-position: center;
+}
+.title , .subtitle{
+  color:yellow;
+}
+.title {
+  margin-top:100px;
+  font-size:4rem;
+  font-weight: 600;
+}
+.subtitle{
+  font-weight: 400;
+  font-size:2rem;
+  margin-top:50px;
+}
+.nav-link, .navbar-brand, .nav-item {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: yellow;
+}
+.nav-link:hover{
+  border-bottom-color:grey;
+}
+.animalLinksContainer{
+  display:flex;
+}
+.environmentTitle{
+  padding:15px;
+  padding-left:30px;
+  padding-right: 30px;
+  width:fit-content;
+  text-align:center;
+  font-size:2em;
+  color:yellow;
+  margin-top:30px;
+  border:1px solid grey;
+  border-radius: 25px;
+}
+.wrapper{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.environment{
+  display:flex;
+  flex-direction:column;
+}
+.link{
+  padding:15px;
+  font-size:1.5em
+}
